@@ -1,41 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Parcel App</title>
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="app.js"></script>
-    </head>
-  <body id="body-index">
+  </head>
+  <body>
     <header>
-        <div class="navbar">
-          <nav>
-            <ul class="nav-bar">
-              <li><a href="#"> O Salnés</a></li>
-                <li><a href="categoria.html">Categorías</a></li>
-                <li><a href="presentacion.html">Presentación</a></li>
-                <li><a href="enlaces.html">Enlaces</a></li>
-              </ul>
-          </nav>
-        </div>
+      <nav div class="navbar">
+        <div>Galicia</div>
+        <ul class="nav-bar">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="categoria.html">Categorías</a></li>
+          <li><a href="presentacion.html">Presentación</a></li>
+          <li><a href="enlaces.html">Enlaces</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <div class="container" >
-        <h1 id="main-h1">O Salnés</h1>
-        <p>
-          Descubre la comarca de O Salnés en las Rías Baixas, Galicia.
-        </p>
-        <p>Compuesta por los municipios de Cambados, A Illa de Arousa, O Grove, Meaño, Meis, Ribadumia, Sanxenxo, Vilagarcía de Arousa y Vilanova de Arousa.</p>
-        <img src="../assets/salnes2.jpg" alt="">
+      <div class="container row">
+        <section>
+          <h1>Galicia</h1>
+          <br />
+          <p>
+            Galicia es una comunidad autónoma española, considerada nacionalidad
+            histórica según su estatuto de autonomía, situada en el noroeste de
+            la península ibérica. Está formada por las provincias de La Coruña,
+            Lugo, Orense y Pontevedra, que se componen de trescientos trece
+            municipios agrupados en cincuenta y tres comarcas.
+          </p>
+          <p>
+            Descubre lugares turísticos que no debes perderte en tu próxima
+            visita.
+          </p>
+          <div id="index-btn">
+            <a href="categoria.html" class="button">Descubre Galicia</a>
+          </div>
+        </section>
+        <section>
+          <img
+            class="container-map"
+            src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Galicia._Comarcas_e_Concellos.png"
+            alt=""
+          />
+        </section>
       </div>
-
-      
     </main>
     <footer>
-        
-          <p>Herramientas HTML y CSS I</p>
-          <p>Marcela Raquel Bayas Domínguez</p>
-       
+      <p>Herramientas HTML y CSS I</p>
+      <p>Marcela Raquel Bayas Domínguez</p>
     </footer>
   </body>
 </html>
