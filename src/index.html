@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Parcel App</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.scss" />
   </head>
   <body>
     <header>
       <nav div class="navbar">
-        <div>Galicia</div>
         <ul class="nav-bar">
           <li><a href="#">Inicio</a></li>
           <li><a href="categoria.html">Categorías</a></li>
@@ -22,15 +21,17 @@
     <main>
       <div class="container row">
         <section>
-          <h1>Galicia</h1>
+          <div>
+            <h1>Galicia</h1>
           <br />
           <p>
             Galicia es una comunidad autónoma española, considerada nacionalidad
             histórica según su estatuto de autonomía, situada en el noroeste de
-            la península ibérica. Está formada por las provincias de La Coruña,
-            Lugo, Orense y Pontevedra, que se componen de trescientos trece
-            municipios agrupados en cincuenta y tres comarcas.
+            la península ibérica. 
           </p>
+          <p>Está formada por las provincias de La Coruña,
+            Lugo, Orense y Pontevedra, que se componen de trescientos trece
+            municipios agrupados en cincuenta y tres comarcas.</p>
           <p>
             Descubre lugares turísticos que no debes perderte en tu próxima
             visita.
@@ -38,13 +39,12 @@
           <div id="index-btn">
             <a href="categoria.html" class="button">Descubre Galicia</a>
           </div>
-        </section>
-        <section>
           <img
             class="container-map"
             src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Galicia._Comarcas_e_Concellos.png"
             alt=""
           />
+          </div>
         </section>
       </div>
     </main>
